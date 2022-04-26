@@ -1,7 +1,7 @@
 const links = [
     {
         label: "Week1 notes",
-        url: "rawinolivera.github.io/wdd331r/week1/indexedDB.html"
+        url: "week1/index.html"
     }
 ]
 
@@ -12,8 +12,8 @@ function displayLinks (link) {
     let list = document.createElement('li');
     let a = document.createElement('a');
 
-    list.textContent = `${link.label}`;
-    a.textContent = `"${link.url}"`;
+    a.textContent = `${link.label}`;
+    a.href = `${link.url}`;
     
     list.appendChild(a); 
     olist.appendChild(list);
