@@ -1,0 +1,36 @@
+//variables
+
+$body-background-color: #c6c6c6;
+$form-background-color: #3399ff;
+$head-line-color: #113311;
+$input-color: #d3d3d3;
+$break-small: 32.5rem;
+$break-medium: 64rem;
+
+body {
+    background-color: $body-background-color;
+}
+
+
+
+#contactform {
+    background-color: $form-background-color;
+    input, textarea {
+        background-color: $input-color;
+        flex: 2;
+    }
+    @media (min-width: $break-small) {
+       & {
+          width: 90%;
+          max-width: 700px;
+          margin-left: auto;
+          margin-right: auto; 
+        } 
+    }
+    @media (min-width: $break-medium) {
+        & {
+            width: 70%;
+            max-width: 900px;
+        }
+    }
+}
