@@ -20,6 +20,10 @@ main {
     padding: 1rem 2rem;
 }
 
+main li a {
+    font-weight: 900;
+}
+
 footer {
     background-color: green;
     padding: .5rem;
