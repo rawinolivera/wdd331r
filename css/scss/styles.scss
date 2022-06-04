@@ -12,7 +12,6 @@ body {
 }
 
 
-
 #contactform {
     background-color: $form-background-color;
     input, textarea {
@@ -33,4 +32,18 @@ body {
             max-width: 900px;
         }
     }
+}
+
+@mixin flex-container() {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+fieldset > div {
+    @include flex-container;        
 }
