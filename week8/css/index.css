@@ -26,7 +26,7 @@
 }
 
 .col-grid {
-    height: 155rem;
+    height: 170rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
