@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:slnt,wght,CASL,CRSV,MONO@-15..0,300..800,0..1,0..1,0..1&display=swap");
+
+:root {
+  // set variation axis values
+  --mono: "MONO" 0; // Monospace: Sans (natural-width) or Mono (fixed-width)
+  --casl: "CASL" 0; // Casual: Linear to Casual
+  --wght: 300; // Weight: Light to ExtraBlack; usually set with `font-weight`
+  --slnt: 0deg; // Slant: 0 to -15 degrees, auto cursive at -14
+  --crsv: "CRSV" 0.5; // Cursive: always roman (0), auto substitution (.5), or always cursive (1)
+}
+
+* {
+  font-weight: var(--wght);
+  font-style: oblique var(--slnt);
+  font-variation-settings: var(--mono), var(--casl), var(--crsv);
+}
+
+body {
+    font-family: Oswald, 'sand-serif';
+}
+
+
+h2 {
+    --wght: 600;
+    --mono: "MONO" 0;
+}
+
+h3 {
+    --wght: 600;
+}
+
+p {
+    font-family: times new roman;
+}
+
+.boldy {
+    --wght: 600;
+}
+
+.boldyCa {
+    text-transform: uppercase;
+}
