@@ -9,7 +9,6 @@ body {
   left: 10rem;
   top: 5rem;
   width: 19rem;
-  border: 1px solid #e2e2e2;
   background-color: #f4f6f8;
   display: grid;
   grid-template-columns: 1.2fr auto;

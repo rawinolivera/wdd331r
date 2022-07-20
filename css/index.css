@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
+body {
+    background-color: #dfdfdf;
+}
+
 header div {
-    background-color: green;
+    background: linear-gradient(#0088ff 75%, #00ff88);
     text-align: center;
     padding: 1.8rem 1rem 1rem;
 }
@@ -20,12 +24,16 @@ main {
     padding: 1rem 2rem;
 }
 
-main li a {
+main li a, p {
     font-weight: 900;
 }
 
+main a {
+    font-size: 1.2rem;
+}
+
 footer {
-    background-color: green;
+    background: linear-gradient(#0088ff 75%, #00ff88);
     padding: .5rem;
 }
 

@@ -15,7 +15,7 @@ const links = [
         url: "week3/index.html"
     },
     {
-        label: "Week-4: Zen Garden",
+        label: "Week-4: Zen Garden (Project Link)",
         objective: "Work with a group this semester on a Zen Garden project. Your group will create its own Zen Garden.",
         url: "https://rawinolivera.github.io/zengarden/"
     },
