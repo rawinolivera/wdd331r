@@ -1,0 +1,16 @@
+@import 'setup.scss';
+
+body {
+    background-color: $white;
+    text-align: center;
+}
+
+.cart {
+    width: 20rem;
+    border: 1px solid $lgray;
+    background-color: $lgray;
+    display: flex;
+}
+
+
+

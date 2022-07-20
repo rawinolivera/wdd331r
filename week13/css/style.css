@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto+Condensed:ital,wght@0,300;1,300&display=swap");
+body {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.cart {
+  width: 20rem;
+  border: 1px solid #dad4d4;
+  background-color: #dad4d4;
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
