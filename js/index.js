@@ -60,9 +60,9 @@ const links = [
         url: "https://youtu.be/GXdlQHTp9U4"
     },
     {
-        label: "Week-13: ",
-        objective: "",
-        url: "https://rawinolivera.github.io/wdd331r/"
+        label: "Week-13: Components and Architecture",
+        objective: "Re-create the provided shopping cart in a codepen using layout principles like BEM.",
+        url: "week13/index.html"
     }
 ]
 
